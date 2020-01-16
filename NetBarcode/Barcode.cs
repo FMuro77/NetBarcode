@@ -435,7 +435,7 @@ namespace NetBarcode
             }
         }
 
-        private Image GenerateImage()
+        public Image GenerateImage()
         {
             const int barWidth = 2;
             const int aspectRatio = 2;
